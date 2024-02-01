@@ -1,0 +1,76 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Jan 31 12:46:23 2024
+# Process ID: 145560
+# Current directory: C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent110708 C:\iCloudDrive\~SchoolWork\Spring2024\ECE_4305\Lab_2\SquareWaveGen\SquareWaveGen.xpr
+# Log file: C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/vivado.log
+# Journal file: C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen\vivado.jou
+# Running On: Eury-PC, OS: Windows, CPU Frequency: 4100 MHz, CPU Physical cores: 16, Host memory: 68628 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+refresh_design
+set_property top SquareWaveGen_basic [current_fileset]
+refresh_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+file mkdir C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/constrs_1
+file mkdir C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/constrs_1/new
+close [ open C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/constrs_1/new/SquareWaveGen.xdc w ]
+add_files -fileset constrs_1 C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/constrs_1/new/SquareWaveGen.xdc
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+refresh_design
+launch_simulation
+source SquareWaveGen_sim.tcl
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+refresh_design
+close_design
+open_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+close_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+refresh_design
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+refresh_design
+launch_simulation
+launch_simulation
+source SquareWaveGen_sim.tcl
+relaunch_sim
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1

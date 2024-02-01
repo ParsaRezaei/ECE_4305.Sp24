@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Jan 31 15:38:55 2024
+# Process ID: 166384
+# Current directory: C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.runs/synth_1
+# Command line: vivado.exe -log SquareWaveGen_basic.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source SquareWaveGen_basic.tcl
+# Log file: C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.runs/synth_1/SquareWaveGen_basic.vds
+# Journal file: C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.runs/synth_1\vivado.jou
+# Running On: Eury-PC, OS: Windows, CPU Frequency: 4100 MHz, CPU Physical cores: 16, Host memory: 68628 MB
+#-----------------------------------------------------------
+source SquareWaveGen_basic.tcl -notrace

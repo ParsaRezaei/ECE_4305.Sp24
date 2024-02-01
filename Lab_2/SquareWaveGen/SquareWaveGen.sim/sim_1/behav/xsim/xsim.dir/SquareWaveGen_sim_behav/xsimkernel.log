@@ -1,0 +1,4 @@
+Running: xsim.dir/SquareWaveGen_sim_behav/xsimk.exe -simmode gui -wdb SquareWaveGen_sim_behav.wdb -simrunnum 0 -socket 12427
+Design successfully loaded
+Design Loading Memory Usage: 8072 KB (Peak: 8072 KB)
+Design Loading CPU Usage: 15 ms

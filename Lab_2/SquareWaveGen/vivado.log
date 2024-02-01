@@ -1,0 +1,801 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Jan 31 12:46:23 2024
+# Process ID: 145560
+# Current directory: C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent110708 C:\iCloudDrive\~SchoolWork\Spring2024\ECE_4305\Lab_2\SquareWaveGen\SquareWaveGen.xpr
+# Log file: C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/vivado.log
+# Journal file: C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen\vivado.jou
+# Running On: Eury-PC, OS: Windows, CPU Frequency: 4100 MHz, CPU Physical cores: 16, Host memory: 68628 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k24c:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k24c/1.0/board.xml as part xck24-ubva530-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k24i:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k24i/1.0/board.xml as part xck24-ubva530-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.2/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.3/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.4/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.2/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.3/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26i:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26i/1.4/board.xml as part xck26-sfvc784-2lvi-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kd240_som:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kd240_som/1.0/board.xml as part xck24-ubva530-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kr260_som:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kr260_som/1.0/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kr260_som:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kr260_som/1.1/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.2/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.3/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kv260_som:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kv260_som/1.4/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.0/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.1/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc702:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc702/1.4/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu104:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu104/1.1/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.4/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.5 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.5/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.6/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'C:/Users/preza/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen' since last save.
+WARNING: [filemgmt 56-2] Board Part Repository Path: Could not find the directory 'C:/AppData/Roaming/Xilinx/Vivado/2023.2/xhub/board_store/xilinx_board_store', nor could it be found using path 'C:/Users/preza/AppData/Roaming/Xilinx/Vivado/2023.2/xhub/board_store/xilinx_board_store'.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:09 . Memory (MB): peak = 1485.238 ; gain = 331.789
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: SquareWaveGen
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 156248
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 2305.145 ; gain = 421.160
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'SquareWaveGen' [C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/sources_1/new/SquareWaveGen.sv:10]
+INFO: [Synth 8-6155] done synthesizing module 'SquareWaveGen' (0#1) [C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/sources_1/new/SquareWaveGen.sv:10]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 2412.270 ; gain = 528.285
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 2412.270 ; gain = 528.285
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 2412.270 ; gain = 528.285
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2412.270 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2481.227 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:20 ; elapsed = 00:00:12 . Memory (MB): peak = 2510.801 ; gain = 626.816
+8 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:16 . Memory (MB): peak = 2510.801 ; gain = 1010.035
+refresh_design
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 2610.570 ; gain = 66.277
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'SquareWaveGen' [C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/sources_1/new/SquareWaveGen.sv:10]
+INFO: [Synth 8-6155] done synthesizing module 'SquareWaveGen' (0#1) [C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/sources_1/new/SquareWaveGen.sv:10]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 2703.289 ; gain = 158.996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 2703.289 ; gain = 158.996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 2703.289 ; gain = 158.996
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2703.289 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+refresh_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:10 . Memory (MB): peak = 2713.863 ; gain = 169.570
+set_property top SquareWaveGen_basic [current_fileset]
+refresh_design
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 2726.922 ; gain = 13.059
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'SquareWaveGen_basic' [C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/sources_1/new/SquareWaveGen.sv:70]
+INFO: [Synth 8-6155] done synthesizing module 'SquareWaveGen_basic' (0#1) [C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/sources_1/new/SquareWaveGen.sv:70]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 2730.605 ; gain = 16.742
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 2730.605 ; gain = 16.742
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 2730.605 ; gain = 16.742
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2730.605 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+refresh_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 2730.605 ; gain = 16.742
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Wed Jan 31 13:02:25 2024] Launched synth_1...
+Run output will be captured here: C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.runs/synth_1/runme.log
+[Wed Jan 31 13:02:25 2024] Launched impl_1...
+Run output will be captured here: C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.runs/impl_1/runme.log
+file mkdir C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/constrs_1
+file mkdir C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/constrs_1/new
+close [ open C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/constrs_1/new/SquareWaveGen.xdc w ]
+add_files -fileset constrs_1 C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/constrs_1/new/SquareWaveGen.xdc
+reset_run synth_1
+INFO: [Project 1-1160] Copying file C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.runs/synth_1/SquareWaveGen_basic.dcp to C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Wed Jan 31 13:16:32 2024] Launched synth_1...
+Run output will be captured here: C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.runs/synth_1/runme.log
+[Wed Jan 31 13:16:32 2024] Launched impl_1...
+Run output will be captured here: C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.runs/impl_1/runme.log
+refresh_design
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2744.492 ; gain = 13.887
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'SquareWaveGen_basic' [C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/sources_1/new/SquareWaveGen.sv:70]
+INFO: [Synth 8-6155] done synthesizing module 'SquareWaveGen_basic' (0#1) [C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/sources_1/new/SquareWaveGen.sv:70]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2758.613 ; gain = 28.008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2781.477 ; gain = 50.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2781.477 ; gain = 50.871
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2808.180 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/constrs_1/new/SquareWaveGen.xdc]
+Finished Parsing XDC File [C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/constrs_1/new/SquareWaveGen.xdc]
+Completed Processing XDC Constraints
+
+refresh_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 2808.180 ; gain = 77.574
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'SquareWaveGen_sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'SquareWaveGen_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj SquareWaveGen_sim_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/sources_1/new/SquareWaveGen.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SquareWaveGen
+INFO: [VRFC 10-311] analyzing module SquareWaveGen_basic
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/sim_1/new/SquareWaveGen_sim.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SquareWaveGen_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot SquareWaveGen_sim_behav xil_defaultlib.SquareWaveGen_sim xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot SquareWaveGen_sim_behav xil_defaultlib.SquareWaveGen_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.SquareWaveGen
+Compiling module xil_defaultlib.SquareWaveGen_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot SquareWaveGen_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "SquareWaveGen_sim_behav -key {Behavioral:sim_1:Functional:SquareWaveGen_sim} -tclbatch {SquareWaveGen_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source SquareWaveGen_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'SquareWaveGen_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 2808.180 ; gain = 0.000
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/utils_1/imports/synth_1/SquareWaveGen_basic.dcp with file C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.runs/synth_1/SquareWaveGen_basic.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.runs/synth_1
+
+reset_runs: Time (s): cpu = 00:00:12 ; elapsed = 00:03:18 . Memory (MB): peak = 2808.180 ; gain = 0.000
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Wed Jan 31 14:03:28 2024] Launched synth_1...
+Run output will be captured here: C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.runs/synth_1/runme.log
+[Wed Jan 31 14:03:28 2024] Launched impl_1...
+Run output will be captured here: C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Wed Jan 31 14:04:53 2024] Launched synth_1...
+Run output will be captured here: C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.runs/synth_1/runme.log
+[Wed Jan 31 14:04:53 2024] Launched impl_1...
+Run output will be captured here: C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.runs/impl_1/runme.log
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/utils_1/imports/synth_1/SquareWaveGen_basic.dcp with file C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.runs/synth_1/SquareWaveGen_basic.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Wed Jan 31 14:21:30 2024] Launched synth_1...
+Run output will be captured here: C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.runs/synth_1/runme.log
+[Wed Jan 31 14:21:30 2024] Launched impl_1...
+Run output will be captured here: C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.runs/impl_1/runme.log
+refresh_design
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 2808.180 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'SquareWaveGen_basic' [C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/sources_1/new/SquareWaveGen.sv:71]
+INFO: [Synth 8-6155] done synthesizing module 'SquareWaveGen_basic' (0#1) [C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/sources_1/new/SquareWaveGen.sv:71]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 2808.180 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 2820.297 ; gain = 12.117
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 2820.297 ; gain = 12.117
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2846.836 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/constrs_1/new/SquareWaveGen.xdc]
+Finished Parsing XDC File [C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/constrs_1/new/SquareWaveGen.xdc]
+Completed Processing XDC Constraints
+
+refresh_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 2846.836 ; gain = 38.656
+close_design
+open_run impl_1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2846.836 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Read ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 2846.836 ; gain = 0.000
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+INFO: [Designutils 20-5722] Start Reading Physical Databases.
+Reading placement.
+Read Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3039.660 ; gain = 0.000
+Reading placer database...
+Read Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 3039.660 ; gain = 0.000
+Read PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 3039.660 ; gain = 0.000
+Read PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3039.660 ; gain = 0.000
+Reading routing.
+Read RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 3039.660 ; gain = 0.000
+Read Physdb Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.037 . Memory (MB): peak = 3039.660 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.038 . Memory (MB): peak = 3039.660 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3039.660 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:15 ; elapsed = 00:00:11 . Memory (MB): peak = 3090.746 ; gain = 243.910
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/utils_1/imports/synth_1/SquareWaveGen_basic.dcp with file C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.runs/synth_1/SquareWaveGen_basic.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Wed Jan 31 14:34:50 2024] Launched synth_1...
+Run output will be captured here: C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.runs/synth_1/runme.log
+[Wed Jan 31 14:34:50 2024] Launched impl_1...
+Run output will be captured here: C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.runs/impl_1/runme.log
+close_design
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/utils_1/imports/synth_1/SquareWaveGen_basic.dcp with file C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.runs/synth_1/SquareWaveGen_basic.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Wed Jan 31 14:46:12 2024] Launched synth_1...
+Run output will be captured here: C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.runs/synth_1/runme.log
+[Wed Jan 31 14:46:12 2024] Launched impl_1...
+Run output will be captured here: C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.runs/impl_1/runme.log
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/utils_1/imports/synth_1/SquareWaveGen_basic.dcp with file C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.runs/synth_1/SquareWaveGen_basic.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Wed Jan 31 14:53:11 2024] Launched synth_1...
+Run output will be captured here: C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.runs/synth_1/runme.log
+[Wed Jan 31 14:53:11 2024] Launched impl_1...
+Run output will be captured here: C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.runs/impl_1/runme.log
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: SquareWaveGen_basic
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 3158.297 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'SquareWaveGen_basic' [C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/sources_1/new/SquareWaveGen.sv:71]
+INFO: [Synth 8-6155] done synthesizing module 'SquareWaveGen_basic' (0#1) [C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/sources_1/new/SquareWaveGen.sv:71]
+WARNING: [Synth 8-3848] Net t in module/entity SquareWaveGen_basic does not have driver. [C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/sources_1/new/SquareWaveGen.sv:82]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 3158.297 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 3158.297 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 3158.297 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3158.297 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/constrs_1/new/SquareWaveGen.xdc]
+Finished Parsing XDC File [C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/constrs_1/new/SquareWaveGen.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3194.109 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 3215.469 ; gain = 57.172
+5 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 3215.469 ; gain = 57.172
+refresh_design
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 3221.531 ; gain = 6.062
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'SquareWaveGen_basic' [C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/sources_1/new/SquareWaveGen.sv:71]
+INFO: [Synth 8-6155] done synthesizing module 'SquareWaveGen_basic' (0#1) [C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/sources_1/new/SquareWaveGen.sv:71]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 3303.375 ; gain = 87.906
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 3327.270 ; gain = 111.801
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 3327.270 ; gain = 111.801
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3353.754 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/constrs_1/new/SquareWaveGen.xdc]
+Finished Parsing XDC File [C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/constrs_1/new/SquareWaveGen.xdc]
+Completed Processing XDC Constraints
+
+refresh_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 3353.754 ; gain = 138.285
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/utils_1/imports/synth_1/SquareWaveGen_basic.dcp with file C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.runs/synth_1/SquareWaveGen_basic.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.runs/synth_1
+
+launch_runs synth_1 -jobs 16
+[Wed Jan 31 14:59:58 2024] Launched synth_1...
+Run output will be captured here: C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.runs/synth_1/runme.log
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'SquareWaveGen_sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: The process cannot access the file because it is being used by another process: "C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.sim/sim_1/behav/xsim/simulate.log"
+INFO: [Common 17-17] undo 'relaunch_sim'
+INFO: [Common 17-17] undo 'relaunch_sim'
+ERROR: [Common 17-69] Command failed: boost::filesystem::remove: The process cannot access the file because it is being used by another process: "C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.sim/sim_1/behav/xsim/simulate.log"
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'SquareWaveGen_sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: The process cannot access the file because it is being used by another process: "C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.sim/sim_1/behav/xsim/simulate.log"
+INFO: [Common 17-17] undo 'relaunch_sim'
+INFO: [Common 17-17] undo 'relaunch_sim'
+ERROR: [Common 17-69] Command failed: boost::filesystem::remove: The process cannot access the file because it is being used by another process: "C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.sim/sim_1/behav/xsim/simulate.log"
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'SquareWaveGen_sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'SquareWaveGen_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj SquareWaveGen_sim_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/sources_1/new/SquareWaveGen.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SquareWaveGen
+INFO: [VRFC 10-311] analyzing module SquareWaveGen_basic
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/sim_1/new/SquareWaveGen_sim.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SquareWaveGen_sim
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'SquareWaveGen_sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot SquareWaveGen_sim_behav xil_defaultlib.SquareWaveGen_sim xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot SquareWaveGen_sim_behav xil_defaultlib.SquareWaveGen_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3180] cannot find port 'count' on this module [C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/sim_1/new/SquareWaveGen_sim.sv:23]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'SquareWaveGen_sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'SquareWaveGen_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj SquareWaveGen_sim_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot SquareWaveGen_sim_behav xil_defaultlib.SquareWaveGen_sim xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot SquareWaveGen_sim_behav xil_defaultlib.SquareWaveGen_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3180] cannot find port 'count' on this module [C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/sim_1/new/SquareWaveGen_sim.sv:23]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 3353.754 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+refresh_design
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 3353.754 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'SquareWaveGen_basic' [C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/sources_1/new/SquareWaveGen.sv:71]
+INFO: [Synth 8-6155] done synthesizing module 'SquareWaveGen_basic' (0#1) [C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/sources_1/new/SquareWaveGen.sv:71]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 3353.754 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 3353.754 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 3353.754 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 3361.238 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/constrs_1/new/SquareWaveGen.xdc]
+Finished Parsing XDC File [C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/constrs_1/new/SquareWaveGen.xdc]
+Completed Processing XDC Constraints
+
+refresh_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:11 . Memory (MB): peak = 3361.238 ; gain = 7.484
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'SquareWaveGen_sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'SquareWaveGen_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj SquareWaveGen_sim_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot SquareWaveGen_sim_behav xil_defaultlib.SquareWaveGen_sim xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot SquareWaveGen_sim_behav xil_defaultlib.SquareWaveGen_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3180] cannot find port 'count' on this module [C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/sim_1/new/SquareWaveGen_sim.sv:23]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 3361.238 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'SquareWaveGen_sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'SquareWaveGen_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj SquareWaveGen_sim_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/sources_1/new/SquareWaveGen.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SquareWaveGen
+INFO: [VRFC 10-311] analyzing module SquareWaveGen_basic
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/sim_1/new/SquareWaveGen_sim.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SquareWaveGen_sim
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot SquareWaveGen_sim_behav xil_defaultlib.SquareWaveGen_sim xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot SquareWaveGen_sim_behav xil_defaultlib.SquareWaveGen_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.SquareWaveGen
+Compiling module xil_defaultlib.SquareWaveGen_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot SquareWaveGen_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "SquareWaveGen_sim_behav -key {Behavioral:sim_1:Functional:SquareWaveGen_sim} -tclbatch {SquareWaveGen_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source SquareWaveGen_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'SquareWaveGen_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 3361.238 ; gain = 0.000
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'SquareWaveGen_sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj SquareWaveGen_sim_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/sources_1/new/SquareWaveGen.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SquareWaveGen
+INFO: [VRFC 10-311] analyzing module SquareWaveGen_basic
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/sim_1/new/SquareWaveGen_sim.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SquareWaveGen_sim
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'SquareWaveGen_sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot SquareWaveGen_sim_behav xil_defaultlib.SquareWaveGen_sim xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot SquareWaveGen_sim_behav xil_defaultlib.SquareWaveGen_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.SquareWaveGen
+Compiling module xil_defaultlib.SquareWaveGen_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot SquareWaveGen_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 3363.316 ; gain = 0.309
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/utils_1/imports/synth_1/SquareWaveGen_basic.dcp with file C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.runs/synth_1/SquareWaveGen_basic.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Wed Jan 31 15:07:23 2024] Launched synth_1...
+Run output will be captured here: C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.runs/synth_1/runme.log
+[Wed Jan 31 15:07:23 2024] Launched impl_1...
+Run output will be captured here: C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.runs/impl_1/runme.log
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.srcs/utils_1/imports/synth_1/SquareWaveGen_basic.dcp with file C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.runs/synth_1/SquareWaveGen_basic.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Wed Jan 31 15:38:50 2024] Launched synth_1...
+Run output will be captured here: C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.runs/synth_1/runme.log
+[Wed Jan 31 15:38:50 2024] Launched impl_1...
+Run output will be captured here: C:/iCloudDrive/~SchoolWork/Spring2024/ECE_4305/Lab_2/SquareWaveGen/SquareWaveGen.runs/impl_1/runme.log
